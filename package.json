@@ -1,0 +1,12 @@
+{
+  "name": "roatan-excursion-planner",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build-roatan-site.py",
+    "deploy": "wrangler deploy",
+    "preview": "python3 -m http.server 8900"
+  },
+  "devDependencies": {
+    "wrangler": "^4.94.0"
+  }
+}

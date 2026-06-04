@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="300" fill="#0891b2"/>
+  <rect y="300" width="800" height="200" fill="#0369a1"/>
+  <rect x="250" y="260" width="300" height="60" rx="10" fill="#f8fafc"/>
+  <text x="400" y="440" text-anchor="middle" fill="#ecfeff" font-family="sans-serif" font-size="20">Glass Bottom Boat  Roatan Reef</text>
+</svg>

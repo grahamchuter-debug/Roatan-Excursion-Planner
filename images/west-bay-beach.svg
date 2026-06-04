@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="350" fill="#38bdf8"/>
+  <rect y="350" width="800" height="150" fill="#fde68a"/>
+  <text x="400" y="440" text-anchor="middle" fill="#0c4a6e" font-family="sans-serif" font-size="22">West Bay Beach  Roatan</text>
+</svg>

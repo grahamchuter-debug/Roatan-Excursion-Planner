@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#166534"/>
+  <ellipse cx="400" cy="280" rx="120" ry="80" fill="#92400e" opacity="0.8"/>
+  <text x="400" y="420" text-anchor="middle" fill="#ecfdf5" font-family="sans-serif" font-size="20">Sloth Encounter  Roatan</text>
+</svg>
