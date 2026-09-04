@@ -230,7 +230,7 @@ def _hero_home() -> str:
           Plan Your Perfect<br/><span class="text-emerald-300">Roatan Port Day</span>
         </h1>
         <p class="site-hero__lead text-base sm:text-lg text-white/85 font-light leading-relaxed mb-5 max-w-2xl">
-          Sloths, monkeys, West Bay Beach and Mesoamerican Reef snorkelling — the experiences cruise passengers actually book in Roatan, timed for your ship schedule.
+          Sloths, monkeys, West Bay Beach and Mesoamerican Reef snorkelling  -  the experiences cruise passengers actually book in Roatan, timed for your ship schedule.
         </p>
         <div class="site-hero__actions flex flex-col sm:flex-row gap-3">
           <a href="best-roatan-excursions.html" class="btn-primary inline-flex items-center justify-center gap-2 text-white font-semibold px-7 py-3 rounded-full text-sm shadow-xl">Explore Excursions</a>
@@ -250,12 +250,12 @@ def _hero_home() -> str:
 
 def _comparison_table() -> str:
     rows = [
-        ("Sloth &amp; Monkey Tours", "3–4 hrs", "Families, first-timers", "20–40 min", "roatan-sloth-and-monkey-tours.html"),
-        ("West Bay Beach", "4–6 hrs", "Beach lovers", "25–45 min", "west-bay-beach-excursions.html"),
-        ("Snorkelling", "3–5 hrs", "Reef &amp; marine life", "15–30 min to boat", "roatan-snorkelling-tours.html"),
-        ("Private Tours", "4–8 hrs", "Custom pacing", "Door-to-door", "roatan-private-tours.html"),
-        ("Zipline", "2–4 hrs", "Adventure seekers", "30–50 min", "roatan-zipline-excursions.html"),
-        ("Glass Bottom Boats", "2–3 hrs", "Non-swimmers", "15–25 min", "glass-bottom-boat-tours-roatan.html"),
+        ("Sloth &amp; Monkey Tours", "3-4 hrs", "Families, first-timers", "20-40 min", "roatan-sloth-and-monkey-tours.html"),
+        ("West Bay Beach", "4-6 hrs", "Beach lovers", "25-45 min", "west-bay-beach-excursions.html"),
+        ("Snorkelling", "3-5 hrs", "Reef &amp; marine life", "15-30 min to boat", "roatan-snorkelling-tours.html"),
+        ("Private Tours", "4-8 hrs", "Custom pacing", "Door-to-door", "roatan-private-tours.html"),
+        ("Zipline", "2-4 hrs", "Adventure seekers", "30-50 min", "roatan-zipline-excursions.html"),
+        ("Glass Bottom Boats", "2-3 hrs", "Non-swimmers", "15-25 min", "glass-bottom-boat-tours-roatan.html"),
     ]
     body = ""
     for name, dur, best, travel, link in rows:
@@ -310,7 +310,7 @@ def _hero_one_day() -> str:
     return _hero_inner(
         "Sample Port Day Timeline",
         "One Perfect Day<br/><span class=\"text-emerald-300\">in Roatan</span>",
-        "Hour-by-hour itinerary from gangway to departure — wildlife morning, West Bay afternoon, with return-to-ship buffer.",
+        "Hour-by-hour itinerary from gangway to departure  -  wildlife morning, West Bay afternoon, with return-to-ship buffer.",
         ONE_DAY_IMG,
         ONE_DAY_ALT,
         breadcrumb="One Day in Roatan",
@@ -332,7 +332,7 @@ def _hero_west_bay() -> str:
     return _hero_inner(
         "Bay Islands · Honduras",
         "West Bay Beach<br/><span class=\"text-emerald-300\">Excursions</span>",
-        "Powder-white sand and calm Caribbean water on Roatan's top-rated beach — chair rentals, snorkel and cruise-friendly returns.",
+        "Powder-white sand and calm Caribbean water on Roatan's Well-regarded beach  -  chair rentals, snorkel and cruise-friendly returns.",
         WEST_BAY_IMG,
         WEST_BAY_ALT,
         breadcrumb="West Bay Beach",
@@ -343,7 +343,7 @@ def _hero_snorkelling() -> str:
     return _hero_inner(
         "Mesoamerican Reef · Roatan",
         "Roatan <span class=\"text-emerald-300\">Snorkelling</span><br/>Tours",
-        "Second-largest barrier reef in the world — boat snorkel, reef parks and clear water with gear and guides included.",
+        "Second-largest barrier reef in the world  -  boat snorkel, reef parks and clear water with gear and guides included.",
         SNORKELLING_IMG,
         SNORKELLING_ALT,
         breadcrumb="Snorkelling Tours",
@@ -354,7 +354,7 @@ def _hero_private() -> str:
     return _hero_inner(
         "Custom Shore Excursions",
         "Private Roatan Tours<br/><span class=\"text-teal-300\">Your Way</span>",
-        "Your driver, your stops — combine wildlife parks, West Bay, snorkel boats and scenic overlooks at your group's pace.",
+        "Your driver, your stops  -  combine wildlife parks, West Bay, snorkel boats and scenic overlooks at your group's pace.",
         PRIVATE_TOUR_IMG,
         PRIVATE_TOUR_ALT,
         breadcrumb="Private Tours",
@@ -376,7 +376,7 @@ def _hero_wildlife() -> str:
     return _hero_inner(
         "Bay Islands Nature",
         "Roatan <span class=\"text-emerald-300\">Wildlife</span><br/>Encounters",
-        "Sloths, monkeys, iguanas, birds and reef life — the wildlife experiences that define a Roatan port day.",
+        "Sloths, monkeys, iguanas, birds and reef life  -  the wildlife experiences that define a Roatan port day.",
         WILDLIFE_PARK_IMG,
         WILDLIFE_PARK_ALT,
         breadcrumb="Wildlife Encounters",
@@ -387,7 +387,7 @@ def _hero_beach_breaks() -> str:
     return _hero_inner(
         "Relax &amp; Swim · Roatan",
         "Roatan <span class=\"text-emerald-300\">Beach Breaks</span>",
-        "Organised beach days with transport, chairs and calm water — West Bay, Sandy Bay and resort strips timed for your ship.",
+        "Organised beach days with transport, chairs and calm water  -  West Bay, Sandy Bay and resort strips timed for your ship.",
         WEST_BAY_IMG,
         WEST_BAY_ALT,
         breadcrumb="Beach Breaks",
@@ -420,7 +420,7 @@ def _hero_glass_bottom() -> str:
     return _hero_inner(
         "Reef Without Getting Wet",
         "Glass Bottom Boat<br/><span class=\"text-emerald-300\">Tours</span>",
-        "See coral, fish and reef formations from a shaded boat — ideal for non-swimmers and mixed-age groups.",
+        "See coral, fish and reef formations from a shaded boat  -  ideal for non-swimmers and mixed-age groups.",
         GLASS_BOTTOM_IMG,
         GLASS_BOTTOM_ALT,
         breadcrumb="Glass Bottom Boats",
@@ -440,11 +440,11 @@ def _hero_faq() -> str:
 
 def _snapshot_default(**overrides: str) -> str:
     defaults = dict(
-        time_in_port="7–10 hours (typical)",
+        time_in_port="7-10 hours (typical)",
         best_for="Wildlife, beaches, reef snorkelling",
         walking="Low at terminals; varies by tour",
-        family="Excellent — parks and calm beaches",
-        return_ship="Most operators allow 60–90 min buffer",
+        family="Excellent  -  parks and calm beaches",
+        return_ship="Most operators allow 60-90 min buffer",
         popular="Sloth tours, West Bay, snorkelling, private vans",
     )
     defaults.update(overrides)
@@ -453,8 +453,8 @@ def _snapshot_default(**overrides: str) -> str:
 
 def _content_home() -> str:
     cards = _card_grid([
-        (WILDLIFE_PARK_IMG, WILDLIFE_PARK_ALT, "Sloth & Monkey Tours", "Hold sloths and meet monkeys at jungle parks — Roatan's signature cruise experience.", "roatan-sloth-and-monkey-tours.html", "Wildlife Tours"),
-        (WEST_BAY_IMG, WEST_BAY_ALT, "West Bay Beach", "Top-rated Caribbean sand with calm snorkel-friendly water west of the port.", "west-bay-beach-excursions.html", "Beach Guide"),
+        (WILDLIFE_PARK_IMG, WILDLIFE_PARK_ALT, "Sloth & Monkey Tours", "Hold sloths and meet monkeys at jungle parks  -  Roatan's signature cruise experience.", "roatan-sloth-and-monkey-tours.html", "Wildlife Tours"),
+        (WEST_BAY_IMG, WEST_BAY_ALT, "West Bay Beach", "Well-regarded Caribbean sand with calm snorkel-friendly water west of the port.", "west-bay-beach-excursions.html", "Beach Guide"),
         (SNORKELLING_IMG, SNORKELLING_ALT, "Snorkelling Tours", "Boat trips to the Mesoamerican Reef with gear, guides and cruise-friendly returns.", "roatan-snorkelling-tours.html", "Snorkelling"),
         (PRIVATE_TOUR_IMG, PRIVATE_TOUR_ALT, "Private Tours", "Custom vans combining wildlife, beaches and reef stops at your group's pace.", "roatan-private-tours.html", "Private Tours"),
     ])
@@ -462,17 +462,17 @@ def _content_home() -> str:
       <div>
         <div class="inline-flex items-center gap-2 text-emerald-700 text-xs font-semibold tracking-widest uppercase mb-3"><div class="w-8 h-px bg-emerald-400"></div>Bay Islands Cruise Port</div>
         <h2 class="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-5">Why Cruise Passengers<br/><span class="text-emerald-700">Choose Roatan</span></h2>
-        <p class="text-gray-600 leading-relaxed mb-5">Roatan pairs lush Honduran jungle with world-class reef access. Most ships dock at <strong>Mahogany Bay</strong> or <strong>Coxen Hole</strong>, putting sloth sanctuaries, zipline parks and West Bay Beach within a short van ride — perfect for a single port day.</p>
-        <p class="text-gray-600 leading-relaxed mb-8">Excursions are built around typical <strong>7–10 hour</strong> calls, with operators planning buffer time before your all-aboard.</p>
+        <p class="text-gray-600 leading-relaxed mb-5">Roatan pairs lush Honduran jungle with world-class reef access. Most ships dock at <strong>Mahogany Bay</strong> or <strong>Coxen Hole</strong>, putting sloth sanctuaries, zipline parks and West Bay Beach within a short van ride  -  perfect for a single port day.</p>
+        <p class="text-gray-600 leading-relaxed mb-8">Excursions are built around typical <strong>7-10 hour</strong> calls, with operators planning buffer time before your all-aboard.</p>
         <a href="best-roatan-excursions.html" class="btn-ocean inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-full text-sm shadow-lg">Browse All Excursions</a>
       </div>
-      <a href="best-roatan-excursions.html" class="info-image block rounded-3xl aspect-[4/3] shadow-2xl overflow-hidden card-hover" aria-label="Best Roatan cruise excursions — sloth wildlife tour">
+      <a href="best-roatan-excursions.html" class="info-image block rounded-3xl aspect-[4/3] shadow-2xl overflow-hidden card-hover" aria-label="Best Roatan cruise excursions  -  sloth wildlife tour">
         <img src="{BEST_EXCURSIONS_IMG}" alt="{BEST_EXCURSIONS_ALT}" width="800" height="600" loading="lazy" decoding="async" />
       </a>
     </div></div></section>
     <section class="py-20 bg-emerald-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-14"><h2 class="text-3xl sm:text-4xl font-display font-bold text-gray-900">Popular Roatan Excursion Types</h2>
-      <p class="mt-4 text-gray-500 max-w-xl mx-auto">Wildlife, beaches, reef adventures and private tours — matched to your ship schedule.</p></div>
+      <p class="mt-4 text-gray-500 max-w-xl mx-auto">Wildlife, beaches, reef adventures and private tours  -  matched to your ship schedule.</p></div>
       {cards}
     </div></section>
     <section class="py-20 bg-emerald-900"><div class="max-w-3xl mx-auto px-4 text-center">
@@ -490,7 +490,7 @@ def _content_best() -> str:
       <div class="max-w-3xl mx-auto text-center mb-12">
         <div class="inline-flex items-center gap-2 text-emerald-700 text-xs font-semibold tracking-widest uppercase mb-3"><div class="w-8 h-px bg-emerald-400"></div>Compare &amp; Choose</div>
         <h2 class="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-5">Best Roatan Cruise Excursions</h2>
-        <p class="text-gray-600 leading-relaxed">Use this comparison table to match your port day with the right experience. Most tours pick up at <strong>Mahogany Bay</strong> or <strong>Coxen Hole</strong> and return with 60–90 minutes of buffer before all aboard.</p>
+        <p class="text-gray-600 leading-relaxed">Use this comparison table to match your port day with the right experience. Most tours pick up at <strong>Mahogany Bay</strong> or <strong>Coxen Hole</strong> and return with 60-90 minutes of buffer before all aboard.</p>
       </div>
       {_comparison_table()}
       <div class="mt-12 max-w-3xl mx-auto">{_internal_links()}</div>
@@ -503,7 +503,7 @@ def _content_port() -> str:
         popular="Sloth parks, West Bay, snorkel boats, private tours",
     )
     return f"""<section class="pt-8 pb-8 bg-white"><div class="max-w-3xl mx-auto px-4">
-      <p class="text-gray-600 leading-relaxed text-center">Roatan receives major cruise lines at two main terminals on the south side of the island. Calls typically run <strong>7–10 hours</strong> — enough for a wildlife park, reef snorkel and a West Bay beach afternoon if you plan transfers carefully.</p>
+      <p class="text-gray-600 leading-relaxed text-center">Roatan receives major cruise lines at two main terminals on the south side of the island. Calls typically run <strong>7-10 hours</strong>  -  enough for a wildlife park, reef snorkel and a West Bay beach afternoon if you plan transfers carefully.</p>
     </div></section>
     {snap}
     <section id="terminals" class="py-16 bg-gray-50 scroll-mt-12"><div class="max-w-7xl mx-auto px-4">
@@ -525,9 +525,9 @@ def _content_port() -> str:
     <section id="getting-around" class="py-16 bg-white scroll-mt-12"><div class="max-w-7xl mx-auto px-4">
       <h2 class="text-2xl font-display font-bold text-center mb-10">Walking, Taxis &amp; Safety</h2>
       <div class="grid md:grid-cols-3 gap-6 text-sm">
-        <div class="bg-white rounded-3xl p-6 border border-emerald-100 shadow-sm"><strong class="text-gray-900 block mb-2">Walking</strong><p class="text-gray-600">Mahogany Bay's village is walkable from the pier. Coxen Hole connects to downtown shops — stay in busy areas. Excursion zones (parks, West Bay) need a van or taxi.</p></div>
+        <div class="bg-white rounded-3xl p-6 border border-emerald-100 shadow-sm"><strong class="text-gray-900 block mb-2">Walking</strong><p class="text-gray-600">Mahogany Bay's village is walkable from the pier. Coxen Hole connects to downtown shops  -  stay in busy areas. Excursion zones (parks, West Bay) need a van or taxi.</p></div>
         <div class="bg-white rounded-3xl p-6 border border-emerald-100 shadow-sm"><strong class="text-gray-900 block mb-2">Taxis</strong><p class="text-gray-600">Licensed taxis queue at both terminals. Agree fares in USD before leaving; many drivers offer hourly island tours. Allow extra time on multi-ship days.</p></div>
-        <div class="bg-white rounded-3xl p-6 border border-emerald-100 shadow-sm"><strong class="text-gray-900 block mb-2">Safety</strong><p class="text-gray-600">Stick to organised tours and official taxis in port. Secure valuables, avoid isolated areas alone, and follow crew advice — standard practice for Caribbean cruise ports.</p></div>
+        <div class="bg-white rounded-3xl p-6 border border-emerald-100 shadow-sm"><strong class="text-gray-900 block mb-2">Safety</strong><p class="text-gray-600">Stick to organised tours and official taxis in port. Secure valuables, avoid isolated areas alone, and follow crew advice  -  standard practice for Caribbean cruise ports.</p></div>
       </div>
     </div></section>
     <section class="py-16 bg-white"><div class="max-w-7xl mx-auto px-4">
@@ -540,7 +540,7 @@ def _content_port() -> str:
     </div></section>
     <section class="py-16 bg-emerald-50"><div class="max-w-7xl mx-auto px-4 text-center">
       <h2 class="text-2xl font-display font-bold text-gray-900 mb-4">Best Excursions from the Port</h2>
-      <p class="text-gray-600 text-sm max-w-2xl mx-auto mb-8">On a typical 7–10 hour call, cruise guests most often book sloth and monkey parks, West Bay Beach breaks, reef snorkel boats, ziplines, glass-bottom boats or private combo tours.</p>
+      <p class="text-gray-600 text-sm max-w-2xl mx-auto mb-8">On a typical 7-10 hour call, cruise guests most often book sloth and monkey parks, West Bay Beach breaks, reef snorkel boats, ziplines, glass-bottom boats or private combo tours.</p>
       <a href="best-roatan-excursions.html" class="btn-ocean inline-flex text-white font-semibold px-8 py-3 rounded-full text-sm shadow-lg">Compare All Excursions</a>
       <p class="mt-8"><a href="one-day-in-roatan.html" class="text-emerald-700 font-semibold text-sm">See sample one-day itinerary →</a></p>
       <div class="mt-10 max-w-3xl mx-auto text-left">{_internal_links()}</div>
@@ -550,7 +550,7 @@ def _content_port() -> str:
 def _content_one_day() -> str:
     snap = _snapshot_default(best_for="Wildlife + beach combo days")
     return f"""<section class="pt-8 pb-8 bg-white"><div class="max-w-3xl mx-auto px-4 text-center">
-      <p class="text-gray-600 leading-relaxed">This sample timeline fits a typical <strong>7–10 hour</strong> Roatan call. Adjust for your ship's actual arrival and all-aboard times.</p>
+      <p class="text-gray-600 leading-relaxed">This sample timeline fits a typical <strong>7-10 hour</strong> Roatan call. Adjust for your ship's actual arrival and all-aboard times.</p>
       <div class="info-image rounded-3xl aspect-[4/3] shadow-xl overflow-hidden mt-8 max-w-3xl mx-auto">
         <img src="{ONE_DAY_IMG}" alt="{ONE_DAY_ALT}" width="800" height="600" loading="lazy" decoding="async" />
       </div>
@@ -561,11 +561,11 @@ def _content_one_day() -> str:
       <h2 class="text-2xl font-display font-bold text-gray-900 text-center mb-10">Classic Roatan Port Day</h2>
       <ol class="space-y-4">
         <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">08:00</span><div><strong>Arrive</strong><p class="text-sm text-gray-600 mt-1">Clear gangway at Mahogany Bay or Coxen Hole; meet pre-booked van or walk to taxi rank.</p></div></li>
-        <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">09:00</span><div><strong>Wildlife Park</strong><p class="text-sm text-gray-600 mt-1">Sloth hold, monkey encounter and garden walk — allow 2–3 hours including transfer.</p></div></li>
+        <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">09:00</span><div><strong>Wildlife Park</strong><p class="text-sm text-gray-600 mt-1">Sloth hold, monkey encounter and garden walk  -  allow 2-3 hours including transfer.</p></div></li>
         <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">12:00</span><div><strong>Lunch</strong><p class="text-sm text-gray-600 mt-1">Eat near the park or grab beach snacks en route to West Bay.</p></div></li>
-        <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">13:00</span><div><strong>West Bay Beach</strong><p class="text-sm text-gray-600 mt-1">Swim, snorkel off the sand or relax in chairs — 2–3 hours is ideal.</p></div></li>
+        <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">13:00</span><div><strong>West Bay Beach</strong><p class="text-sm text-gray-600 mt-1">Swim, snorkel off the sand or relax in chairs  -  2-3 hours is ideal.</p></div></li>
         <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">15:30</span><div><strong>Return to Port</strong><p class="text-sm text-gray-600 mt-1">Drive back with traffic buffer; souvenir stop optional if time allows.</p></div></li>
-        <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">17:00</span><div><strong>Departure</strong><p class="text-sm text-gray-600 mt-1">Board with margin before published all-aboard — never cut it close on ship days.</p></div></li>
+        <li class="flex gap-4 bg-white rounded-2xl p-5 border border-emerald-100 shadow-sm"><span class="font-bold text-emerald-700 shrink-0">17:00</span><div><strong>Departure</strong><p class="text-sm text-gray-600 mt-1">Board with margin before published all-aboard  -  never cut it close on ship days.</p></div></li>
       </ol>
       <div class="mt-10">{_internal_links()}</div>
     </div></section>"""
@@ -595,10 +595,10 @@ def _content_excursion_page(
 
 def _content_sloth() -> str:
     return _content_excursion_page(
-        "Sloth and monkey tours are the most-booked Roatan shore excursions. Parks and sanctuaries let you hold sloths under staff supervision, feed or observe monkeys, and walk tropical trails — usually as a half-day trip with hotel-style pickup at the cruise terminals.",
+        "Sloth and monkey tours are the most-booked Roatan shore excursions. Parks and sanctuaries let you hold sloths under staff supervision, feed or observe monkeys, and walk tropical trails  -  usually as a half-day trip with hotel-style pickup at the cruise terminals.",
         [
             "Book morning departures to pair with an afternoon beach.",
-            "Follow staff instructions — wildlife welfare rules apply.",
+            "Follow staff instructions  -  wildlife welfare rules apply.",
             "Wear closed shoes for garden paths; bring cash for photos or snacks.",
             "Combine with a private van if your group wants West Bay the same day.",
         ],
@@ -610,9 +610,9 @@ def _content_sloth() -> str:
 
 def _content_west_bay() -> str:
     return _content_excursion_page(
-        "West Bay Beach consistently ranks among the Caribbean's best strips — white sand, gradual entry and snorkel-friendly reef close to shore. Cruise excursions include transport, often chair rental and time to swim before a scheduled return to Mahogany Bay or Coxen Hole.",
+        "West Bay Beach consistently ranks among the Caribbean's best strips  -  white sand, gradual entry and snorkel-friendly reef close to shore. Cruise excursions include transport, often chair rental and time to swim before a scheduled return to Mahogany Bay or Coxen Hole.",
         [
-            "Allow 25–45 minutes each way from port depending on traffic.",
+            "Allow 25-45 minutes each way from port depending on traffic.",
             "Reef-safe sunscreen protects the Mesoamerican Reef.",
             "Chair vendors and beach bars accept USD at most locations.",
             "Pair with morning wildlife if you want a full island sampler.",
@@ -625,9 +625,9 @@ def _content_west_bay() -> str:
 
 def _content_snorkelling() -> str:
     return _content_excursion_page(
-        "Roatan sits on the Mesoamerican Reef — the hemisphere's second-largest barrier system. Snorkel boats depart from marinas near the port, supplying masks, fins and a guide who knows currents and cruise return deadlines.",
+        "Roatan sits on the Mesoamerican Reef  -  the hemisphere's second-largest barrier system. Snorkel boats depart from marinas near the port, supplying masks, fins and a guide who knows currents and cruise return deadlines.",
         [
-            "Half-day sails suit most 7–10 hour port calls.",
+            "Half-day sails suit most 7-10 hour port calls.",
             "Beginners welcome; listen to crew safety briefings.",
             "Bring a rash guard instead of sunscreens that harm coral.",
             "Glass-bottom boats are an alternative if you prefer not to swim.",
@@ -640,14 +640,14 @@ def _content_snorkelling() -> str:
 
 def _content_private() -> str:
     return _content_excursion_page(
-        "Private vans and SUVs let your group design the day — wildlife park first, West Bay after lunch, scenic stop at a viewpoint, or a snorkel marina drop-off. Drivers who work with cruise guests understand all-aboard pressure and traffic on ship days.",
+        "Private vans and SUVs let your group design the day  -  wildlife park first, West Bay after lunch, scenic stop at a viewpoint, or a snorkel marina drop-off. Drivers who work with cruise guests understand all-aboard pressure and traffic on ship days.",
         [
             "Split cost across families to rival per-person coach pricing.",
-            "Share your must-see list when booking — routes are flexible.",
+            "Share your must-see list when booking  -  routes are flexible.",
             "Confirm vehicle size for your party and luggage.",
             "Agree on return time in writing or by message.",
         ],
-        dict(best_for="Groups wanting custom pacing", walking="Minimal — vehicle-based", popular="Private wildlife + beach combos"),
+        dict(best_for="Groups wanting custom pacing", walking="Minimal  -  vehicle-based", popular="Private wildlife + beach combos"),
         PRIVATE_TOUR_IMG,
         PRIVATE_TOUR_ALT,
     )
@@ -655,7 +655,7 @@ def _content_private() -> str:
 
 def _content_zipline() -> str:
     return _content_excursion_page(
-        "Jungle zipline courses thread through Roatan's canopy with harnessed lines, platforms and trained guides. Most excursions run 2–4 hours including safety briefing and transfer — leaving afternoon time for a beach if your ship stays late.",
+        "Jungle zipline courses thread through Roatan's canopy with harnessed lines, platforms and trained guides. Most excursions run 2-4 hours including safety briefing and transfer  -  leaving afternoon time for a beach if your ship stays late.",
         [
             "Wear closed-toe shoes and secure sunglasses.",
             "Not ideal for guests with serious mobility limitations.",
@@ -690,9 +690,9 @@ def _content_beach_breaks() -> str:
         [
             "Confirm whether lunch and chairs are included.",
             "Bring reef-safe sunscreen and water shoes for rocky entries.",
-            "Watch your return van time — beaches are relaxing enough to lose track.",
+            "Watch your return van time  -  beaches are relaxing enough to lose track.",
         ],
-        dict(best_for="Relaxation-focused guests", walking="Low — sand and pier walks", popular="West Bay breaks, resort beach clubs"),
+        dict(best_for="Relaxation-focused guests", walking="Low  -  sand and pier walks", popular="West Bay breaks, resort beach clubs"),
         WEST_BAY_IMG,
         WEST_BAY_ALT,
     )
@@ -700,12 +700,12 @@ def _content_beach_breaks() -> str:
 
 def _content_family() -> str:
     return _content_excursion_page(
-        "Families gravitate to gentle wildlife parks, calm West Bay water and snorkel boats with life jackets. Avoid over-stacking the day — kids tire; two stops (park + beach) beat three rushed attractions.",
+        "Families gravitate to gentle wildlife parks, calm West Bay water and snorkel boats with life jackets. Avoid over-stacking the day  -  kids tire; two stops (park + beach) beat three rushed attractions.",
         [
             "Sloth parks suit toddlers with carrier-friendly paths.",
-            "Snorkel operators often offer junior gear — ask when booking.",
+            "Snorkel operators often offer junior gear  -  ask when booking.",
             "Private vans simplify nap timing and snack stops.",
-            "Ziplines may have age/weight minimums — verify ahead.",
+            "Ziplines may have age/weight minimums  -  verify ahead.",
         ],
         dict(best_for="Kids, parents and grandparents", family="Excellent with age-appropriate picks", popular="Wildlife parks, West Bay, gentle snorkel"),
         WILDLIFE_PARK_IMG,
@@ -730,7 +730,7 @@ def _content_first_time() -> str:
       <span class="text-emerald-700 font-semibold text-sm group-hover:text-emerald-900">{label} →</span>
     </a>"""
     return f"""<section class="pt-8 pb-8 bg-white"><div class="max-w-3xl mx-auto px-4 text-center">
-      <p class="text-gray-600 leading-relaxed">First time in Roatan? Start with what excites you most — the island rewards focused plans over trying to do everything.</p>
+      <p class="text-gray-600 leading-relaxed">First time in Roatan? Start with what excites you most  -  the island rewards focused plans over trying to do everything.</p>
     </div></section>
     <section class="py-16 bg-emerald-50"><div class="max-w-7xl mx-auto px-4">
       <h2 class="text-2xl font-display font-bold text-center text-gray-900 mb-10">Match Your Interests</h2>
@@ -745,13 +745,13 @@ def _content_first_time() -> str:
 
 def _content_glass_bottom() -> str:
     return _content_excursion_page(
-        "Glass-bottom boats let you view coral, sponges and reef fish without entering the water — popular with non-swimmers, older guests and anyone who wants a shaded reef experience. Trips are shorter than full snorkel sails, leaving room for shopping or a wildlife stop.",
+        "Glass-bottom boats let you view coral, sponges and reef fish without entering the water  -  popular with non-swimmers, older guests and anyone who wants a shaded reef experience. Trips are shorter than full snorkel sails, leaving room for shopping or a wildlife stop.",
         [
             "Morning departures often have calmer water for viewing.",
-            "Bring binoculars if you have them — optional but fun.",
-            "Still apply reef-safe policies — no touching coral from boats.",
+            "Bring binoculars if you have them  -  optional but fun.",
+            "Still apply reef-safe policies  -  no touching coral from boats.",
         ],
-        dict(best_for="Non-swimmers and mixed ages", walking="Minimal — boat only", popular="Glass-bottom reef tours"),
+        dict(best_for="Non-swimmers and mixed ages", walking="Minimal  -  boat only", popular="Glass-bottom reef tours"),
         GLASS_BOTTOM_IMG,
         GLASS_BOTTOM_ALT,
     )
@@ -761,16 +761,16 @@ def _content_faq() -> str:
     return f"""<section class="py-16 bg-white"><div class="max-w-3xl mx-auto px-4 space-y-4">
       <details class="faq-item rounded-2xl border border-emerald-100 p-5"><summary class="font-semibold text-gray-900 cursor-pointer">How much time do cruise ships spend in Roatan?</summary>
         <p class="mt-4 text-sm text-gray-500">Most calls are 7 to 10 hours. Half-day wildlife or snorkel tours fit easily; combining park + West Bay needs an early start and a late all-aboard.</p></details>
-      <details class="faq-item rounded-2xl border border-emerald-100 p-5"><summary class="font-semibold text-gray-900 cursor-pointer">Mahogany Bay vs Coxen Hole — which terminal?</summary>
+      <details class="faq-item rounded-2xl border border-emerald-100 p-5"><summary class="font-semibold text-gray-900 cursor-pointer">Mahogany Bay vs Coxen Hole  -  which terminal?</summary>
         <p class="mt-4 text-sm text-gray-500">Your cruise line assigns the pier. Mahogany Bay has a dedicated village; Coxen Hole is closer to downtown. Confirm pickup location when booking independent tours.</p></details>
       <details class="faq-item rounded-2xl border border-emerald-100 p-5"><summary class="font-semibold text-gray-900 cursor-pointer">What currency should I bring?</summary>
         <p class="mt-4 text-sm text-gray-500">Honduran lempira is official, but US dollars are widely accepted for excursions, taxis and beach vendors. Small change helps for tips.</p></details>
       <details class="faq-item rounded-2xl border border-emerald-100 p-5"><summary class="font-semibold text-gray-900 cursor-pointer">Are sloth and monkey tours ethical?</summary>
         <p class="mt-4 text-sm text-gray-500">Choose licensed parks with trained staff, clear animal-welfare rules and supervised contact. Avoid operators that allow unsupervised handling or stressed animals.</p></details>
       <details class="faq-item rounded-2xl border border-emerald-100 p-5"><summary class="font-semibold text-gray-900 cursor-pointer">Is Roatan safe for independent exploration?</summary>
-        <p class="mt-4 text-sm text-gray-500">Tourist zones and organised excursions are heavily visited. Use official taxis, book reputable operators, avoid isolated areas alone, and secure valuables — as in any busy port.</p></details>
+        <p class="mt-4 text-sm text-gray-500">Tourist zones and organised excursions are heavily visited. Use official taxis, book reputable operators, avoid isolated areas alone, and secure valuables  -  as in any busy port.</p></details>
       <details class="faq-item rounded-2xl border border-emerald-100 p-5"><summary class="font-semibold text-gray-900 cursor-pointer">Ship excursion or book independently?</summary>
-        <p class="mt-4 text-sm text-gray-500">Ship tours guarantee the vessel waits if the operator is late. Established Roatan operators plan returns with buffer — read reviews and confirm policies before paying.</p></details>
+        <p class="mt-4 text-sm text-gray-500">Ship-sold tours often include a wait-if-late policy from the cruise line. Established Roatan operators plan returns with buffer  -  confirm policies and policies before paying.</p></details>
       {_internal_links()}
     </div></section>"""
 
@@ -778,11 +778,11 @@ def _content_faq() -> str:
 def _faq_schema() -> dict:
     qa = [
         ("How much time do cruise ships spend in Roatan?", "Most calls are 7 to 10 hours. Half-day wildlife or snorkel tours fit easily; combining park and West Bay needs an early start."),
-        ("Mahogany Bay vs Coxen Hole — which terminal?", "Your cruise line assigns the pier. Confirm pickup location when booking independent tours."),
+        ("Mahogany Bay vs Coxen Hole  -  which terminal?", "Your cruise line assigns the pier. Confirm pickup location when booking independent tours."),
         ("What currency should I bring?", "Honduran lempira is official; US dollars are widely accepted for excursions, taxis and beach vendors."),
         ("Are sloth and monkey tours ethical?", "Choose licensed parks with trained staff and supervised contact. Avoid operators with stressed animals."),
         ("Is Roatan safe for independent exploration?", "Use official taxis and reputable operators; secure valuables as in any busy cruise port."),
-        ("Ship excursion or book independently?", "Ship tours guarantee the vessel waits if late; reputable local operators plan returns with buffer time."),
+        ("Ship excursion or book independently?", "Ship-sold tours often include a wait-if-late policy from the cruise line."),
     ]
     return {
         "@context": "https://schema.org",
@@ -934,21 +934,21 @@ def main() -> None:
         write(f"content/{name}", html)
 
     pages = [
-        dict(file="index.html", title=f"{SITE} | Sloths, West Bay &amp; Reef Tours from the Cruise Port", description="Plan the best Roatan cruise excursions — sloth and monkey tours, West Bay Beach, Mesoamerican Reef snorkelling, ziplines and private shore trips from Mahogany Bay and Coxen Hole.", keywords="Roatan cruise excursions, Roatan shore excursions, Mahogany Bay tours, Coxen Hole cruise port, Honduras cruise excursions", path="", data_page="home", hero="partials/hero-home.html", content="content/home.html", preload=HOME_HERO_IMG, schema={"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": f"{DOMAIN}/", "description": "Planning guide for Roatan cruise shore excursions in Honduras"}),
-        dict(file="best-roatan-excursions.html", title="Best Roatan Excursions | Compare Cruise Port Tours", description="Compare the best Roatan cruise excursions — sloth and monkey tours, West Bay Beach, snorkelling, ziplines, glass-bottom boats and private tours with cruise-friendly timing.", keywords="best Roatan excursions, Roatan shore excursions, cruise port tours Roatan, West Bay excursions, sloth tours Roatan", path="best-roatan-excursions.html", data_page="excursions", hero="partials/hero-excursions.html", content="content/best-roatan-excursions.html", preload=BEST_EXCURSIONS_IMG),
-        dict(file="roatan-cruise-port-guide.html", title="Roatan Cruise Port Guide | Mahogany Bay &amp; Coxen Hole", description="Complete Roatan cruise port guide — Mahogany Bay and Coxen Hole terminals, taxis, safety, lempira and USD, weather and top shore excursions for cruise passengers.", keywords="Roatan cruise port guide, Mahogany Bay cruise port, Coxen Hole pier, Roatan port day, Honduras cruise port", path="roatan-cruise-port-guide.html", data_page="port", hero="partials/hero-port-guide.html", content="content/roatan-cruise-port-guide.html", preload=PORT_GUIDE_IMG),
-        dict(file="one-day-in-roatan.html", title="One Day in Roatan from a Cruise Ship | Port Itinerary", description="How to spend one day in Roatan on a cruise stop — sample timeline from 08:00 arrival through wildlife, lunch, West Bay Beach and 17:00 departure with return-to-ship buffer.", keywords="one day in Roatan cruise, Roatan port day itinerary, Roatan cruise stop planning, Honduras one day cruise", path="one-day-in-roatan.html", data_page="port", hero="partials/hero-one-day.html", content="content/one-day-in-roatan.html", preload=ONE_DAY_IMG),
-        dict(file="roatan-sloth-and-monkey-tours.html", title="Roatan Sloth &amp; Monkey Tours | Cruise Port Wildlife Excursions", description="Roatan sloth and monkey tours for cruise passengers — sanctuary visits, supervised encounters and jungle parks with pickup at Mahogany Bay and Coxen Hole.", keywords="Roatan sloth tours, monkey tours Roatan, sloth encounter cruise excursion, Roatan wildlife park", path="roatan-sloth-and-monkey-tours.html", data_page="wildlife", hero="partials/hero-sloth.html", content="content/roatan-sloth-and-monkey-tours.html", preload=WILDLIFE_PARK_IMG),
-        dict(file="west-bay-beach-excursions.html", title="West Bay Beach Excursions | Roatan Cruise Beach Days", description="West Bay Beach excursions from Roatan cruise port — transport, chair rental, calm Caribbean water and shore snorkel on Honduras' top-rated beach.", keywords="West Bay Beach Roatan, Roatan beach excursion cruise, West Bay cruise port, Roatan beach day", path="west-bay-beach-excursions.html", data_page="beaches", hero="partials/hero-west-bay.html", content="content/west-bay-beach-excursions.html", preload=WEST_BAY_IMG),
-        dict(file="roatan-snorkelling-tours.html", title="Roatan Snorkelling Tours | Mesoamerican Reef Cruise Excursions", description="Roatan snorkelling tours on the Mesoamerican Reef — boat trips, gear and guides with cruise-friendly returns from Mahogany Bay and Coxen Hole.", keywords="Roatan snorkelling tours, Roatan reef snorkel cruise, Mesoamerican Reef excursion, Honduras snorkel cruise", path="roatan-snorkelling-tours.html", data_page="snorkelling", hero="partials/hero-snorkelling.html", content="content/roatan-snorkelling-tours.html", preload=SNORKELLING_IMG),
-        dict(file="roatan-private-tours.html", title="Roatan Private Tours | Custom Cruise Shore Excursions", description="Private Roatan tours for cruise passengers — custom wildlife, West Bay and snorkel combinations with flexible timing for your group from the cruise port.", keywords="Roatan private tours, private Roatan shore excursion, custom Honduras cruise tour, Roatan private van cruise", path="roatan-private-tours.html", data_page="private", hero="partials/hero-private.html", content="content/roatan-private-tours.html", preload=PRIVATE_TOUR_IMG),
-        dict(file="roatan-zipline-excursions.html", title="Roatan Zipline Excursions | Jungle Canopy Cruise Tours", description="Roatan zipline excursions through tropical canopy — multi-line courses, safety gear and cruise-friendly half-day adventures from the port.", keywords="Roatan zipline excursion, canopy tour Roatan cruise, jungle zipline Honduras cruise port", path="roatan-zipline-excursions.html", data_page="excursions", hero="partials/hero-zipline.html", content="content/roatan-zipline-excursions.html", preload="images/zipline.svg"),
-        dict(file="roatan-wildlife-encounters.html", title="Roatan Wildlife Encounters | Sloths, Monkeys &amp; Reef Life", description="Roatan wildlife encounters for cruise guests — sloths, monkeys, iguanas, tropical birds and reef species on organised shore excursions.", keywords="Roatan wildlife encounters, Roatan animals cruise excursion, Honduras wildlife tour Roatan", path="roatan-wildlife-encounters.html", data_page="wildlife", hero="partials/hero-wildlife.html", content="content/roatan-wildlife-encounters.html", preload=WILDLIFE_PARK_IMG),
-        dict(file="roatan-beach-breaks.html", title="Roatan Beach Breaks | Organised Cruise Beach Excursions", description="Roatan beach breaks for cruise passengers — West Bay and resort beaches with transport, chairs and timed returns to Mahogany Bay and Coxen Hole.", keywords="Roatan beach breaks cruise, organised beach day Roatan, cruise beach excursion Honduras", path="roatan-beach-breaks.html", data_page="beaches", hero="partials/hero-beach-breaks.html", content="content/roatan-beach-breaks.html", preload=WEST_BAY_IMG),
-        dict(file="roatan-family-excursions.html", title="Roatan Family Excursions | Kid-Friendly Cruise Port Tours", description="Family-friendly Roatan excursions — gentle wildlife parks, calm beaches and snorkel boats suited to kids and grandparents on a cruise port day.", keywords="Roatan family excursions, kid friendly Roatan cruise tours, family shore excursion Honduras", path="roatan-family-excursions.html", data_page="wildlife", hero="partials/hero-family.html", content="content/roatan-family-excursions.html", preload=WILDLIFE_PARK_IMG),
-        dict(file="roatan-excursions-for-first-time-visitors.html", title="Roatan Excursions for First-Time Visitors | Cruise Port Picks", description="First time in Roatan? Match animals to sloth tours, beaches to West Bay, reef lovers to snorkelling and flexible groups to private tours — with cruise snapshot.", keywords="first time Roatan cruise, Roatan excursions beginners, what to do Roatan cruise port", path="roatan-excursions-for-first-time-visitors.html", data_page="excursions", hero="partials/hero-first-time.html", content="content/roatan-excursions-for-first-time-visitors.html", preload=HOME_HERO_IMG),
-        dict(file="glass-bottom-boat-tours-roatan.html", title="Glass Bottom Boat Tours Roatan | Reef Views Without Diving", description="Glass bottom boat tours in Roatan — view Mesoamerican Reef coral and fish from a shaded boat, ideal for non-swimmers on a cruise port day.", keywords="glass bottom boat Roatan, Roatan reef boat tour cruise, non swimmer reef tour Roatan", path="glass-bottom-boat-tours-roatan.html", data_page="snorkelling", hero="partials/hero-glass-bottom.html", content="content/glass-bottom-boat-tours-roatan.html", preload=GLASS_BOTTOM_IMG),
-        dict(file="roatan-faq.html", title="Roatan Cruise Excursions FAQ | Port Day Planning Answers", description="FAQ for Roatan cruise excursions — port timing, Mahogany Bay vs Coxen Hole, currency, sloth tours, taxis, beaches and booking independent vs ship excursions.", keywords="Roatan cruise excursions FAQ, Roatan port questions, Honduras cruise port FAQ", path="roatan-faq.html", data_page="port", hero="partials/hero-faq.html", content="content/roatan-faq.html", preload=HOME_HERO_IMG, schema=_faq_schema()),
+        dict(file="index.html", title=f"{SITE} | Sloths, West Bay &amp; Reef Tours from the Cruise Port", description="Plan the best Roatan cruise excursions  -  sloth and monkey tours, West Bay Beach, Mesoamerican Reef snorkelling, ziplines and private shore trips from Mahogany Bay and Coxen Hole.", keywords="Roatan cruise excursions, Roatan shore excursions, Mahogany Bay tours, Coxen Hole cruise port, Honduras cruise excursions", path="", data_page="home", hero="partials/hero-home.html", content="content/home.html", preload=HOME_HERO_IMG, schema={"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": f"{DOMAIN}/", "description": "Planning guide for Roatan cruise shore excursions in Honduras"}),
+        dict(file="best-roatan-excursions.html", title="Best Roatan Excursions | Compare Cruise Port Tours", description="Compare the best Roatan cruise excursions  -  sloth and monkey tours, West Bay Beach, snorkelling, ziplines, glass-bottom boats and private tours with cruise-friendly timing.", keywords="best Roatan excursions, Roatan shore excursions, cruise port tours Roatan, West Bay excursions, sloth tours Roatan", path="best-roatan-excursions.html", data_page="excursions", hero="partials/hero-excursions.html", content="content/best-roatan-excursions.html", preload=BEST_EXCURSIONS_IMG),
+        dict(file="roatan-cruise-port-guide.html", title="Roatan Cruise Port Guide | Mahogany Bay &amp; Coxen Hole", description="Complete Roatan cruise port guide  -  Mahogany Bay and Coxen Hole terminals, taxis, safety, lempira and USD, weather and top shore excursions for cruise passengers.", keywords="Roatan cruise port guide, Mahogany Bay cruise port, Coxen Hole pier, Roatan port day, Honduras cruise port", path="roatan-cruise-port-guide.html", data_page="port", hero="partials/hero-port-guide.html", content="content/roatan-cruise-port-guide.html", preload=PORT_GUIDE_IMG),
+        dict(file="one-day-in-roatan.html", title="One Day in Roatan from a Cruise Ship | Port Itinerary", description="How to spend one day in Roatan on a cruise stop  -  sample timeline from 08:00 arrival through wildlife, lunch, West Bay Beach and 17:00 departure with return-to-ship buffer.", keywords="one day in Roatan cruise, Roatan port day itinerary, Roatan cruise stop planning, Honduras one day cruise", path="one-day-in-roatan.html", data_page="port", hero="partials/hero-one-day.html", content="content/one-day-in-roatan.html", preload=ONE_DAY_IMG),
+        dict(file="roatan-sloth-and-monkey-tours.html", title="Roatan Sloth &amp; Monkey Tours | Cruise Port Wildlife Excursions", description="Roatan sloth and monkey tours for cruise passengers  -  sanctuary visits, supervised encounters and jungle parks with pickup at Mahogany Bay and Coxen Hole.", keywords="Roatan sloth tours, monkey tours Roatan, sloth encounter cruise excursion, Roatan wildlife park", path="roatan-sloth-and-monkey-tours.html", data_page="wildlife", hero="partials/hero-sloth.html", content="content/roatan-sloth-and-monkey-tours.html", preload=WILDLIFE_PARK_IMG),
+        dict(file="west-bay-beach-excursions.html", title="West Bay Beach Excursions | Roatan Cruise Beach Days", description="West Bay Beach excursions from Roatan cruise port  -  transport, chair rental, calm Caribbean water and shore snorkel on Honduras' Well-regarded beach.", keywords="West Bay Beach Roatan, Roatan beach excursion cruise, West Bay cruise port, Roatan beach day", path="west-bay-beach-excursions.html", data_page="beaches", hero="partials/hero-west-bay.html", content="content/west-bay-beach-excursions.html", preload=WEST_BAY_IMG),
+        dict(file="roatan-snorkelling-tours.html", title="Roatan Snorkelling Tours | Mesoamerican Reef Cruise Excursions", description="Roatan snorkelling tours on the Mesoamerican Reef  -  boat trips, gear and guides with cruise-friendly returns from Mahogany Bay and Coxen Hole.", keywords="Roatan snorkelling tours, Roatan reef snorkel cruise, Mesoamerican Reef excursion, Honduras snorkel cruise", path="roatan-snorkelling-tours.html", data_page="snorkelling", hero="partials/hero-snorkelling.html", content="content/roatan-snorkelling-tours.html", preload=SNORKELLING_IMG),
+        dict(file="roatan-private-tours.html", title="Roatan Private Tours | Custom Cruise Shore Excursions", description="Private Roatan tours for cruise passengers  -  custom wildlife, West Bay and snorkel combinations with flexible timing for your group from the cruise port.", keywords="Roatan private tours, private Roatan shore excursion, custom Honduras cruise tour, Roatan private van cruise", path="roatan-private-tours.html", data_page="private", hero="partials/hero-private.html", content="content/roatan-private-tours.html", preload=PRIVATE_TOUR_IMG),
+        dict(file="roatan-zipline-excursions.html", title="Roatan Zipline Excursions | Jungle Canopy Cruise Tours", description="Roatan zipline excursions through tropical canopy  -  multi-line courses, safety gear and cruise-friendly half-day adventures from the port.", keywords="Roatan zipline excursion, canopy tour Roatan cruise, jungle zipline Honduras cruise port", path="roatan-zipline-excursions.html", data_page="excursions", hero="partials/hero-zipline.html", content="content/roatan-zipline-excursions.html", preload="images/zipline.svg"),
+        dict(file="roatan-wildlife-encounters.html", title="Roatan Wildlife Encounters | Sloths, Monkeys &amp; Reef Life", description="Roatan wildlife encounters for cruise guests  -  sloths, monkeys, iguanas, tropical birds and reef species on organised shore excursions.", keywords="Roatan wildlife encounters, Roatan animals cruise excursion, Honduras wildlife tour Roatan", path="roatan-wildlife-encounters.html", data_page="wildlife", hero="partials/hero-wildlife.html", content="content/roatan-wildlife-encounters.html", preload=WILDLIFE_PARK_IMG),
+        dict(file="roatan-beach-breaks.html", title="Roatan Beach Breaks | Organised Cruise Beach Excursions", description="Roatan beach breaks for cruise passengers  -  West Bay and resort beaches with transport, chairs and timed returns to Mahogany Bay and Coxen Hole.", keywords="Roatan beach breaks cruise, organised beach day Roatan, cruise beach excursion Honduras", path="roatan-beach-breaks.html", data_page="beaches", hero="partials/hero-beach-breaks.html", content="content/roatan-beach-breaks.html", preload=WEST_BAY_IMG),
+        dict(file="roatan-family-excursions.html", title="Roatan Family Excursions | Kid-Friendly Cruise Port Tours", description="Family-friendly Roatan excursions  -  gentle wildlife parks, calm beaches and snorkel boats suited to kids and grandparents on a cruise port day.", keywords="Roatan family excursions, kid friendly Roatan cruise tours, family shore excursion Honduras", path="roatan-family-excursions.html", data_page="wildlife", hero="partials/hero-family.html", content="content/roatan-family-excursions.html", preload=WILDLIFE_PARK_IMG),
+        dict(file="roatan-excursions-for-first-time-visitors.html", title="Roatan Excursions for First-Time Visitors | Cruise Port Picks", description="First time in Roatan? Match animals to sloth tours, beaches to West Bay, reef lovers to snorkelling and flexible groups to private tours  -  with cruise snapshot.", keywords="first time Roatan cruise, Roatan excursions beginners, what to do Roatan cruise port", path="roatan-excursions-for-first-time-visitors.html", data_page="excursions", hero="partials/hero-first-time.html", content="content/roatan-excursions-for-first-time-visitors.html", preload=HOME_HERO_IMG),
+        dict(file="glass-bottom-boat-tours-roatan.html", title="Glass Bottom Boat Tours Roatan | Reef Views Without Diving", description="Glass bottom boat tours in Roatan  -  view Mesoamerican Reef coral and fish from a shaded boat, ideal for non-swimmers on a cruise port day.", keywords="glass bottom boat Roatan, Roatan reef boat tour cruise, non swimmer reef tour Roatan", path="glass-bottom-boat-tours-roatan.html", data_page="snorkelling", hero="partials/hero-glass-bottom.html", content="content/glass-bottom-boat-tours-roatan.html", preload=GLASS_BOTTOM_IMG),
+        dict(file="roatan-faq.html", title="Roatan Cruise Excursions FAQ | Port Day Planning Answers", description="FAQ for Roatan cruise excursions  -  port timing, Mahogany Bay vs Coxen Hole, currency, sloth tours, taxis, beaches and booking independent vs ship excursions.", keywords="Roatan cruise excursions FAQ, Roatan port questions, Honduras cruise port FAQ", path="roatan-faq.html", data_page="port", hero="partials/hero-faq.html", content="content/roatan-faq.html", preload=HOME_HERO_IMG, schema=_faq_schema()),
     ]
 
     for p in pages:
@@ -1001,7 +1001,7 @@ def main() -> None:
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Page Title | {SITE}</title>
-  <meta name="description" content="Write a unique meta description for this page (150–160 characters)." />
+  <meta name="description" content="Write a unique meta description for this page (150-160 characters)." />
   <link rel="canonical" href="{DOMAIN}/page-slug.html" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="js/tailwind-config.js"></script>

@@ -21,3 +21,6 @@ npm-debug.log*
 
 # Dependencies
 node_modules/
+.wrangler/
+__pycache__/
+*.pyc
