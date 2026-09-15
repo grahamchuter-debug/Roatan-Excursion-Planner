@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Generate Roatan Excursion Planner static site files."""
+from __future__ import annotations
+
 from pathlib import Path
 import json
 
@@ -23,8 +25,8 @@ PRIVATE_TOUR_IMG = "images/roatan-private-tours.png"
 PRIVATE_TOUR_ALT = "Port of Roatan sign with cruise ship docked at the cruise terminal, Honduras"
 WILDLIFE_PARK_IMG = "images/roatan-wildlife-park.png"
 WILDLIFE_PARK_ALT = "Spider monkeys playing on tire swings at a Roatan Honduras wildlife park for cruise passengers"
-GLASS_BOTTOM_IMG = "images/glass-bottom-boat.png"
-GLASS_BOTTOM_ALT = "Tropical fish viewed through glass-bottom boat windows over the Mesoamerican Reef at Roatan Honduras"
+GLASS_BOTTOM_IMG = "images/west-bay-beach.png"
+GLASS_BOTTOM_ALT = "Aerial view of shallow turquoise reef water off Roatan, Honduras — scenery glass-bottom boat tours typically visit"
 
 
 def page_shell(
@@ -610,7 +612,7 @@ def _content_sloth() -> str:
 
 def _content_west_bay() -> str:
     return _content_excursion_page(
-        "West Bay Beach consistently ranks among the Caribbean's best strips  -  white sand, gradual entry and snorkel-friendly reef close to shore. Cruise excursions include transport, often chair rental and time to swim before a scheduled return to Mahogany Bay or Coxen Hole.",
+        "West Bay Beach is one of Roatan's most popular cruise-day beaches  -  white sand, gradual entry and snorkel-friendly reef close to shore. Cruise excursions include transport, often chair rental and time to swim before a scheduled return to Mahogany Bay or Coxen Hole.",
         [
             "Allow 25-45 minutes each way from port depending on traffic.",
             "Reef-safe sunscreen protects the Mesoamerican Reef.",

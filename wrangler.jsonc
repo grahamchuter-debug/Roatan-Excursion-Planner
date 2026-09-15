@@ -1,13 +1,25 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "roatan-excursion-planner",
+  "main": "worker.js",
   "compatibility_date": "2026-06-04",
+  "workers_dev": true,
   "observability": { "enabled": true },
-  "assets": { "directory": "." },
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "html_handling": "force-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
+  },
   "routes": [
     {
-      "pattern": "roatanexcursionplanner.com",
-      "custom_domain": true
+      "pattern": "roatanexcursionplanner.com/*",
+      "zone_name": "roatanexcursionplanner.com"
+    },
+    {
+      "pattern": "www.roatanexcursionplanner.com/*",
+      "zone_name": "roatanexcursionplanner.com"
     }
   ]
 }

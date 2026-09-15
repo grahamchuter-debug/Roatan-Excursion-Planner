@@ -8,7 +8,7 @@
   <meta name="description" content="Independent Roatan Excursion Planner for cruise passengers - Mesoamerican Reef snorkelling, West Bay Beach, wildlife park visits and honest Mahogany Bay versus Coxen Hole logistics." />
   <meta name="keywords" content="Roatan excursion planner, Roatan cruise excursions, West Bay Beach, Mesoamerican Reef, Mahogany Bay, Coxen Hole" />
   <link rel="canonical" href="https://roatanexcursionplanner.com/" />
-  <link rel="preload" as="image" href="images/hero-roatan.png" fetchpriority="high" />
+  <link rel="preload" as="image" href="/images/hero-roatan.png" fetchpriority="high" />
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://roatanexcursionplanner.com/" />
@@ -38,18 +38,219 @@
 <body
   class="bg-white text-gray-800 antialiased"
   data-page="home"
-  data-base=""
-  data-hero="partials/hero-home.html"
-  data-content="content/home.html"
-  data-trust-strip="partials/trust-strip.html"
->
-
-  <div id="site-nav"></div>
-  <div id="page-hero"></div>
-  <div id="page-trust-strip"></div>
-  <main id="page-content"></main>
-  <div id="site-footer"></div>
-
-  <script src="js/site.js"></script>
+ 
+ 
+ 
+ 
+ data-static="1">
+  <div id="site-nav" data-inlined="true"><nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 border-b border-emerald-100 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-12">
+      <a href="/" class="flex items-center gap-2">
+        <div class="w-7 h-7 rounded-full btn-ocean flex items-center justify-center">
+          <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/>
+          </svg>
+        </div>
+        <span class="font-display font-semibold text-emerald-900 text-base leading-tight">Roatan<br/><span class="text-[10px] font-body font-normal text-teal-600 tracking-widest uppercase">Excursion Planner</span></span>
+      </a>
+      <div class="hidden lg:flex items-center gap-5 text-sm font-medium">
+        <a href="/" data-nav="home" class="text-gray-600 hover:text-emerald-700 transition-colors">Home</a>
+        <a href="/best-roatan-excursions/" data-nav="excursions" class="text-gray-600 hover:text-emerald-700 transition-colors">Excursions</a>
+        <a href="/west-bay-beach-excursions/" data-nav="beaches" class="text-gray-600 hover:text-emerald-700 transition-colors">West Bay</a>
+        <a href="/roatan-snorkelling-tours/" data-nav="snorkelling" class="text-gray-600 hover:text-emerald-700 transition-colors">Snorkelling</a>
+        <a href="/ship-schedule/" data-nav="schedule" class="text-gray-600 hover:text-emerald-700 transition-colors">Ship Schedule</a>
+        <a href="/roatan-cruise-port-guide/" data-nav="port" class="text-gray-600 hover:text-emerald-700 transition-colors">Port Guide</a>
+      </div>
+      <a href="/contact/" class="hidden md:inline-flex items-center gap-2 btn-ocean text-white text-sm font-semibold px-4 py-2 rounded-full shadow-md">
+        Contact planner
+      </a>
+      <button type="button" class="lg:hidden p-2 rounded-lg text-gray-600 hover:bg-emerald-50" aria-label="Open menu">
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+</div>
+  <div id="page-hero" data-inlined="true">  <section class="site-hero">
+    <div class="absolute inset-0 hero-bg" style="background-image: linear-gradient(135deg, rgba(6, 78, 59, 0.78) 0%, rgba(13, 148, 136, 0.55) 55%, rgba(0, 0, 0, 0.4) 100%), url('/images/hero-roatan.png');" role="img" aria-label="Three-toed sloth in crystal-clear turquoise water at Roatan Honduras, with lush tropical palm shoreline above the surface"></div>
+    <div class="site-hero__inner max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <div class="site-hero__eyebrow inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/30 rounded-full px-4 py-1.5 mb-3">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="text-white/90 text-xs font-semibold tracking-widest uppercase">Honduras · Bay Islands</span>
+        </div>
+        <h1 class="site-hero__title text-4xl sm:text-5xl lg:text-[3.25rem] font-display font-bold text-white leading-tight mb-3">
+          Roatan<br/><span class="text-emerald-300">Excursion Planner</span>
+        </h1>
+        <p class="site-hero__lead text-base sm:text-lg text-white/85 font-light leading-relaxed mb-5 max-w-2xl">
+          Step ashore on Roatan and choose reef time on the Mesoamerican Barrier, West Bay sand, or a supervised wildlife park visit - planned around your ship and a sensible return window.
+        </p>
+        <div class="site-hero__actions flex flex-col sm:flex-row gap-3">
+          <a href="/roatan-reef-vs-beach/" class="btn-primary inline-flex items-center justify-center gap-2 text-white font-semibold px-7 py-3 rounded-full text-sm shadow-xl">Reef or beach day?</a>
+          <a href="/ship-schedule/" class="btn-outline inline-flex items-center justify-center gap-2 text-white font-semibold px-7 py-3 rounded-full text-sm">Find your ship</a>
+        </div>
+        <div class="site-hero__tags flex flex-wrap gap-2 mt-5 pt-4 border-t border-white/20">
+          <span class="inline-flex items-center bg-white/10 border border-white/25 rounded-full px-3.5 py-1.5 text-xs font-semibold text-white">Mesoamerican Reef</span>
+          <span class="inline-flex items-center bg-white/10 border border-white/25 rounded-full px-3.5 py-1.5 text-xs font-semibold text-white">West Bay</span>
+          <span class="inline-flex items-center bg-white/10 border border-white/25 rounded-full px-3.5 py-1.5 text-xs font-semibold text-white">Wildlife parks</span>
+          <span class="inline-flex items-center bg-white/10 border border-white/25 rounded-full px-3.5 py-1.5 text-xs font-semibold text-white">Two arrival facilities</span>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0"><svg viewBox="0 0 1440 48" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="site-hero__wave" aria-hidden="true"><path d="M0 24 C360 48 1080 0 1440 24 L1440 48 L0 48 Z" fill="white"/></svg></div>
+  </section></div>
+  <div id="page-trust-strip" data-inlined="true"><section class="trust-strip" aria-label="Roatan cruise excursion highlights">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <ul class="trust-strip__list">
+      <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> Wildlife &amp; Adventure</li>
+      <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> West Bay Beach</li>
+      <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> Reef Snorkelling</li>
+      <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> Cruise-Friendly Returns</li>
+    </ul>
+  </div>
+</section>
+</div>
+  <main id="page-content"><section class="pt-8 pb-6 bg-white"><div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+  <p class="section-label mx-auto">Bay Islands cruise call</p>
+  <h2 class="text-2xl sm:text-3xl font-display font-bold text-gray-900 mb-3">Roatan is reef, beach and island logistics</h2>
+  <p class="text-gray-600 text-sm sm:text-base leading-relaxed">Ships may use <strong>Mahogany Bay</strong> or <strong>Coxen Hole</strong> - confirm your facility with the cruise line. From either side of the south coast you can chase Mesoamerican Reef snorkelling, West Bay sand, or a wildlife park visit where animal encounters are possible but never promised.</p>
+</div></section>
+<section class="pb-10 bg-white"><div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="decision-grid">
+    <div class="decision-card"><h3 class="font-display font-bold text-gray-900">Reef / snorkel day</h3><p>Boat trips or shore snorkel toward the Mesoamerican Reef - gear, guides and return timing matter more than brochure fish counts.</p><a href="/roatan-snorkelling-tours/" class="text-emerald-700 font-semibold text-sm">Snorkelling →</a></div>
+    <div class="decision-card"><h3 class="font-display font-bold text-gray-900">Beach day</h3><p>West Bay for sand, calm entry and optional shore snorkel when you want swimming over boat time.</p><a href="/west-bay-beach-excursions/" class="text-emerald-700 font-semibold text-sm">West Bay →</a></div>
+    <div class="decision-card"><h3 class="font-display font-bold text-gray-900">Wildlife park</h3><p>Licensed parks may offer supervised sloth or monkey encounters. Treat sightings and handling as chance-based and rule-bound.</p><a href="/roatan-sloth-and-monkey-tours/" class="text-emerald-700 font-semibold text-sm">Wildlife parks →</a></div>
+    <div class="decision-card"><h3 class="font-display font-bold text-gray-900">Reef vs beach</h3><p>Honest trade-offs between boat reef time and lounger time on a typical 7-10 hour call.</p><a href="/roatan-reef-vs-beach/" class="text-emerald-700 font-semibold text-sm">Compare →</a></div>
+    <div class="decision-card"><h3 class="font-display font-bold text-gray-900">Which facility?</h3><p>Mahogany Bay and Coxen Hole are different arrival points. Do not assume one dock for every ship.</p><a href="/mahogany-bay-vs-coxen-hole/" class="text-emerald-700 font-semibold text-sm">Facilities →</a></div>
+    <div class="decision-card"><h3 class="font-display font-bold text-gray-900">Find your ship</h3><p>Search Roatan call dates, then leave a sensible return window before all aboard.</p><a href="/ship-schedule/" class="text-emerald-700 font-semibold text-sm">Ship schedule →</a></div>
+  </div>
+</div></section>
+<section class="py-12 bg-emerald-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="grid lg:grid-cols-2 gap-12 items-center">
+  <div>
+    <p class="section-label">Arrival orientation</p>
+    <h2 class="text-3xl font-display font-bold text-gray-900 mb-4">Two facilities, one island day</h2>
+    <p class="text-gray-600 leading-relaxed mb-4">Cruise documents name your arrival facility. Mahogany Bay is a purpose-built cruise centre; Coxen Hole sits nearer town markets. Transfer times to West Bay and wildlife parks vary with traffic - confirm pickup with your operator for the pier you actually use.</p>
+    <a href="/mahogany-bay-vs-coxen-hole/" class="btn-ocean inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-full text-sm shadow-lg">Mahogany Bay vs Coxen Hole</a>
+  </div>
+  <div class="info-image rounded-3xl aspect-[4/3] shadow-2xl overflow-hidden">
+    <img src="/images/roatan-cruise-port.png" alt="Aerial view of two cruise ships docked at Mahogany Bay cruise port in Roatan, Honduras, with turquoise Caribbean water and lush green tropical hills" width="800" height="600" loading="lazy" decoding="async" />
+  </div>
+</div></div></section>
+<section class="pb-4 bg-white"><div class="max-w-7xl mx-auto px-4"><aside class="cruise-snapshot mb-10" aria-label="Cruise passenger snapshot">
+  <h3 class="font-display font-bold text-lg text-gray-900 mb-4">Cruise Passenger Snapshot</h3>
+  <dl class="cruise-snapshot__grid">
+    <div class="cruise-snapshot__item"><dt>Typical Time In Port</dt><dd>7-10 hours (typical)</dd></div>
+    <div class="cruise-snapshot__item"><dt>Best For</dt><dd>Reef snorkel, West Bay, wildlife parks</dd></div>
+    <div class="cruise-snapshot__item"><dt>Walking Required</dt><dd>Low at terminals; varies by tour</dd></div>
+    <div class="cruise-snapshot__item"><dt>Family Friendly</dt><dd>Strong with age-appropriate picks</dd></div>
+    <div class="cruise-snapshot__item"><dt>Return To Ship Friendly</dt><dd>Build your own buffer; confirm operator return plan</dd></div>
+    <div class="cruise-snapshot__item"><dt>Popular Excursion Types</dt><dd>West Bay, reef boats, wildlife parks, private vans</dd></div>
+  </dl>
+</aside></div></section>
+<section class="py-12 bg-white"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="text-center mb-10">
+    <p class="section-label mx-auto">Signature choices</p>
+    <h2 class="text-3xl font-display font-bold text-gray-900 mb-3">Three Roatan days cruise guests compare most</h2>
+  </div>
+  <div class="grid sm:grid-cols-3 gap-6">
+    <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-emerald-50 flex flex-col">
+      <div class="card-media h-44"><img src="/images/roatan-snorkelling.png" alt="Snorkeller swimming over coral reef with tropical fish in clear turquoise water at Roatan Honduras Mesoamerican Reef" width="600" height="352" loading="lazy" decoding="async" /></div>
+      <div class="p-6 flex flex-col flex-1"><h3 class="text-lg font-display font-semibold text-gray-900 mb-2">Reef snorkel</h3><p class="text-sm text-gray-500 flex-1">Boat-based Mesoamerican Reef time with gear and a timed return window.</p><a href="/roatan-snorkelling-tours/" class="mt-5 text-emerald-700 font-semibold text-sm">Snorkelling →</a></div>
+    </div>
+    <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-emerald-50 flex flex-col">
+      <div class="card-media h-44"><img src="/images/west-bay-beach.png" alt="Aerial view of West Bay Beach Roatan Honduras with turquoise reef water, white sand and palm-lined resorts along the coastline" width="600" height="352" loading="lazy" decoding="async" /></div>
+      <div class="p-6 flex flex-col flex-1"><h3 class="text-lg font-display font-semibold text-gray-900 mb-2">West Bay Beach</h3><p class="text-sm text-gray-500 flex-1">Sand, swimming and optional shore snorkel west of the south-coast facilities.</p><a href="/west-bay-beach-excursions/" class="mt-5 text-emerald-700 font-semibold text-sm">West Bay →</a></div>
+    </div>
+    <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-emerald-50 flex flex-col">
+      <div class="card-media h-44"><img src="/images/roatan-wildlife-park.png" alt="Spider monkeys playing on tire swings at a Roatan Honduras wildlife park for cruise passengers" width="600" height="352" loading="lazy" decoding="async" /></div>
+      <div class="p-6 flex flex-col flex-1"><h3 class="text-lg font-display font-semibold text-gray-900 mb-2">Wildlife parks</h3><p class="text-sm text-gray-500 flex-1">Park visits where sloth or monkey encounters may be offered under staff rules.</p><a href="/roatan-sloth-and-monkey-tours/" class="mt-5 text-emerald-700 font-semibold text-sm">Wildlife →</a></div>
+    </div>
+  </div>
+  <p class="text-center mt-8"><a href="/best-roatan-excursions/" class="text-emerald-700 font-semibold text-sm">Full comparison →</a></p>
+</div></section>
+<section class="py-12 bg-emerald-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="grid lg:grid-cols-2 gap-12 items-center">
+  <div>
+    <p class="section-label">Ship planning</p>
+    <h2 class="text-3xl font-display font-bold text-gray-900 mb-4">Match the day to your Roatan call</h2>
+    <p class="text-gray-600 leading-relaxed mb-4">Browse arrivals by month, note your all-aboard window, then choose reef, beach or park intensity. Schedules can change - treat published times as planning aids and build your own buffer.</p>
+    <a href="/ship-schedule/" class="btn-ocean inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-full text-sm">Find your ship schedule</a>
+  </div>
+  <div class="card-media rounded-3xl overflow-hidden aspect-[4/3] shadow-lg">
+    <img src="/images/one-day-in-roatan.png" alt="Wonder of the Seas cruise ship docked at Roatan Honduras tropical port, framed by palm trees and lush green hills" width="800" height="600" loading="lazy" decoding="async" />
+  </div>
+</div></div></section>
+<section class="py-16 cta-gradient"><div class="max-w-3xl mx-auto px-4 text-center">
+  <h2 class="text-3xl font-display font-bold text-white mb-4">Still deciding?</h2>
+  <p class="text-white/85 text-sm mb-6">Compare reef versus beach, or email the Roatan planner with your ship and date.</p>
+  <div class="flex flex-col sm:flex-row gap-4 justify-center">
+    <a href="/roatan-reef-vs-beach/" class="btn-primary inline-flex items-center justify-center text-white font-semibold px-8 py-4 rounded-full">Reef vs beach</a>
+    <a href="/contact/" class="btn-outline inline-flex items-center justify-center text-white font-semibold px-8 py-4 rounded-full">Contact planner</a>
+  </div>
+</div></section>
+<section class="py-14 bg-white" id="concierge" aria-labelledby="concierge-heading">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="concierge-panel">
+      <h2 id="concierge-heading" class="font-display font-bold text-2xl sm:text-3xl mb-3">Need help shaping your Roatan day?</h2>
+      <p class="text-white/90 text-sm sm:text-base leading-relaxed mb-4">
+        Tell us your ship, call date, and whether you lean reef snorkelling, West Bay sand, a wildlife park visit or a private island loop.
+        We are an independent planning resource - not the cruise line and not a ticket marketplace.
+      </p>
+      <p class="text-white/80 text-sm leading-relaxed mb-5">
+        email <a href="mailto:hello@roatanexcursionplanner.com">hello@roatanexcursionplanner.com</a> with your ship, date and preferences.
+        We do not promise instant replies or 24/7 staffing.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a href="mailto:hello@roatanexcursionplanner.com" class="btn-primary inline-flex items-center justify-center text-white font-semibold px-6 py-3 rounded-full text-sm no-underline">Email the Roatan planner</a>
+        <a href="/best-roatan-excursions/" class="btn-outline inline-flex items-center justify-center text-white font-semibold px-6 py-3 rounded-full text-sm no-underline">Compare excursion types</a>
+      </div>
+    </div>
+  </div>
+</section></main>
+  <div id="site-footer" data-inlined="true">  <footer class="bg-gray-900 text-gray-400 py-14">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+        <div class="sm:col-span-2 lg:col-span-1">
+          <a href="/" class="font-display font-semibold text-white text-lg">Roatan Excursion Planner</a>
+          <p class="mt-3 text-sm leading-relaxed">Independent planning guide for cruise visitors to Roatan, Honduras. Not affiliated with any cruise line.</p>
+        </div>
+        <div>
+          <h3 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Excursions</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/best-roatan-excursions/" class="hover:text-white transition-colors">All Excursions</a></li>
+            <li><a href="/west-bay-beach-excursions/" class="hover:text-white transition-colors">West Bay Beach</a></li>
+            <li><a href="/roatan-snorkelling-tours/" class="hover:text-white transition-colors">Snorkelling</a></li>
+            <li><a href="/roatan-sloth-and-monkey-tours/" class="hover:text-white transition-colors">Wildlife Parks</a></li>
+            <li><a href="/roatan-reef-vs-beach/" class="hover:text-white transition-colors">Reef vs Beach</a></li>
+            <li><a href="/mahogany-bay-vs-coxen-hole/" class="hover:text-white transition-colors">Mahogany Bay vs Coxen Hole</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Resources</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/roatan-cruise-port-guide/" class="hover:text-white transition-colors">Port Guide</a></li>
+            <li><a href="/ship-schedule/" class="hover:text-white transition-colors">Ship Schedule</a></li>
+            <li><a href="/one-day-in-roatan/" class="hover:text-white transition-colors">One Day in Roatan</a></li>
+            <li><a href="/roatan-faq/" class="hover:text-white transition-colors">FAQ</a></li>
+            <li><a href="/methodology/" class="hover:text-white transition-colors">Methodology</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white text-sm font-semibold uppercase tracking-wider mb-4">Legal</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/about/" class="hover:text-white transition-colors">About</a></li>
+            <li><a href="/contact/" class="hover:text-white transition-colors">Contact</a></li>
+            <li><a href="/privacy/" class="hover:text-white transition-colors">Privacy</a></li>
+            <li><a href="/terms/" class="hover:text-white transition-colors">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-xs text-center sm:text-left">
+        <p>&copy; 2026 Roatan Excursion Planner. Confirm times with your cruise line and operators. No fabricated prices or ratings on this site.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+  <script src="/js/site.js" defer></script>
 </body>
 </html>

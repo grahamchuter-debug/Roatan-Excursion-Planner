@@ -3,6 +3,9 @@
 .wrangler
 node_modules
 scripts/
+content/
+partials/
+data/
 **/__pycache__
 *.pyc
 .DS_Store
@@ -10,9 +13,15 @@ deploy.sh
 package-lock.json
 package.json
 wrangler.jsonc
+wrangler.toml
+worker.js
+template.html
 *.md
 !images/ATTRIBUTION.md
 .assetsignore
 .env
 .env.*
 *.log
+*.py
+*.mjs
+agent-transcripts
